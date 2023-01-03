@@ -21,6 +21,6 @@ root.render( // rendu de l'application
         </Routes>
       <Footer/>
   </BrowserRouter>,
-  document.getElementById('root')
+  document.getElementById('root') // insertion de l'application dans le DOM
 );
 
