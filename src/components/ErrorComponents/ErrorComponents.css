@@ -1,0 +1,52 @@
+.errorTitle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 96px;
+    font-weight: 700;
+    color: #ff6060;
+    margin-bottom: 10px;
+}
+.errorMessage{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ff6060;
+    margin: 0 50px 0 60px;
+}
+.errorLink{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ff6060;
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-bottom: 67px;    
+}
+a{
+    text-decoration: none;
+}
+@media screen and (min-width : 768px){
+    .errorTitle{
+        font-size: 180px;
+    } 
+    .errorMessage{
+        font-size: 25px;
+    }
+    .errorLink{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width : 1200px){
+    .errorTitle{
+        font-size: 288px;
+        margin-bottom: 60px;
+    }
+    .errorMessage{
+        font-size: 36px;
+        margin-bottom: 400px;
+    }
+}
