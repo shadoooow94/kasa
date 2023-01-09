@@ -26,7 +26,7 @@ export default function Home() { //exportation de la fonction Home qui retourne 
           //Link permet de créer un lien vers la page Location et de lui passer en paramètre l'id de la carte
            
             <Link className='location__link' key={`${card.id}`} to={`/Location/${card.id}`}>  
-              <Card key={`${card.id}`} cover = {card.cover} title = {card.title} />  
+              <Card key={`${card.id}`} cover = {card.cover} title = {card.title} />   
             </Link>
           ))} 
           </div> 
