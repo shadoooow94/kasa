@@ -4,7 +4,7 @@
     justify-content: space-between;
 }
 .location__collapse>div{
-    width: 48%;
+    width: 50%;
    
 }
 
@@ -12,9 +12,14 @@
 {
     .location__collapse{
         
-        width: 200%;
+        width: 220%;
         flex-direction: column;
          
+    }
+    .location__collapse>div{
+        width: 45%;
+        margin-left: -13px;
+       
     }
     
 }
