@@ -10,7 +10,7 @@ import About from './Pages/About/About' // importation de la page About
 import { BrowserRouter ,Routes, Route} from 'react-router-dom';  // importation des composants de react-router-dom
 
 const root = ReactDOM.createRoot(document.getElementById('root')); // création de la racine de l'application 
-root.render( // rendu de l'application 
+root.render( // rendu de l'application  dans la racine de l'application  et insertion dans le DOM
   <BrowserRouter> 
      <Header/>
       <Routes>

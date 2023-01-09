@@ -2,8 +2,9 @@
     margin:  0 20px 0 20px;
 }
 details {
-    margin-bottom: 5%;
+    padding: 20px;
     user-select: none;
+   
 }
 
 details[open] summary .fa-chevron-down {
@@ -19,7 +20,7 @@ summary {
     border-radius: 5px;
     list-style: none;
     cursor: pointer;
-    padding: 4% 2% 2% 4%;
+    padding: 2% 2% 2% 4%;
     transform: translate(-0%, 20%);
 }
 
@@ -43,9 +44,6 @@ details p, details li{
 details ul {
     list-style: none;
 }
-.location__info__text{
-    margin: 0 20px 0 30px;
-}
 
 
 @media screen and (min-width: 768px) 
@@ -60,9 +58,7 @@ details ul {
     details p, details ul {
         padding: 3% 2% 2% 2%;
     }
-    .location__info__text{
-        margin: 0 30px 0 40px;
-    }
+    
 }
 
 
@@ -92,6 +88,6 @@ details ul {
     }
     .location__info__text{
         font-size: 18px;
-        margin: 0 40px 0 50px;
+       
     }
 }

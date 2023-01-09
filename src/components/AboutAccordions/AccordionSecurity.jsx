@@ -1,7 +1,7 @@
 import React from 'react'
 import './AboutAccordion.css'
 
-export default function AccordionFiability() {
+export default function AccordionFiability() { //exportation de la fonction AccordionFiability qui retourne un composant AccordionFiability qui est un composant qui affiche le premier accordéon de la page à propos
 
 
 

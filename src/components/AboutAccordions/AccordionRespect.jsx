@@ -2,7 +2,7 @@
 import React from 'react'
 import './AboutAccordion.css'
 
-export default function AccordionRespect() {
+export default function AccordionRespect() { //exportation de la fonction AccordionRespect qui retourne un composant AccordionRespect qui est un composant qui affiche les informations de la page à propos
 
     
 

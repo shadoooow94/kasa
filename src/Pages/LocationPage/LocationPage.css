@@ -1,0 +1,21 @@
+.location__collapse{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.location__collapse>div{
+    width: 48%;
+   
+}
+
+@media screen and (max-width: 768px)
+{
+    .location__collapse{
+        
+        width: 200%;
+        flex-direction: column;
+         
+    }
+    
+}
+    

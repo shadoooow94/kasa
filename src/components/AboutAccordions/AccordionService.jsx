@@ -1,7 +1,7 @@
 import React from 'react'
 import './AboutAccordion.css'
 
-export default function AccordionFiability() {
+export default function AccordionFiability() { 
 
     
 
